@@ -1,0 +1,78 @@
+.brain_and_arrows {
+    position: relative;
+    display: grid;
+    place-items: center;
+}
+
+.brain img {
+    width: 100%;
+    position: relative;
+    margin: 0 auto;
+}
+
+/* This is the index card container */
+.index_card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    background-color: transparent;
+    width: 10%;
+    height: 2.75%;
+    perspective: 1000px;
+    position: absolute;
+    z-index: 1;
+    text-align: center;
+    font-size: .80em; /* 75% of the font size of the parent element */
+}
+
+.index_card_inner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* Do an horizontal flip when you move the mouse over the index card container*/
+.index_card:hover .index_card_inner {
+    transform: rotateY(180deg);
+}
+
+/*Positions the front and back side */
+
+.index_card_front,
+.index_card_back {
+    position: absolute;
+    background-color: rgb(43, 189, 226);
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    font-size: 1em;
+    text-align: center;
+    /*This controls the font size of the text on the card relative to the font size. */
+}
+
+/* Style the front side (fallback if image is missing) */
+.index_card_front {
+    margin: 0;
+    line-height: 1.2;
+    background-color: #6474d0;
+    box-sizing: border-box;
+    color: black;
+}
+
+
+/* Style the back side */
+.index_card_back {
+    background-color: dodgerblue;
+    color: white;
+    transform: rotateY(180deg);
+}
