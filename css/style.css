@@ -1,3 +1,45 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    min-height: 100vh;
+    margin: 0;
+}
+
+.header_title {
+    font-size: 25px;
+}
+
+.header {
+    background-color: #ff65d1;
+}
+
+.header h1 {
+    background-color: #ff65d1;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+
+.links {
+    display: flex;
+    justify-content: center;
+    background-color: #ff65d1;
+    padding: 5px;
+    margin: 0;
+}
+
+.links a {
+    padding: 90px;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.ULTIMATE_container {}
+
 .brain_and_arrows {
     position: relative;
     display: grid;
@@ -23,7 +65,8 @@
     position: absolute;
     z-index: 1;
     text-align: center;
-    font-size: .80em; /* 75% of the font size of the parent element */
+    font-size: .80em;
+    /* 75% of the font size of the parent element */
 }
 
 .index_card_inner {
