@@ -9,17 +9,18 @@ body {
 }
 
 .header_title {
-    font-size: 25px;
+    font-size: 20px;
 }
 
 
 .header {
-    background-color: #fff065;
-    font-family: englebert;
+    background-color: #65d6ff;
+    font-family: special elite;
+    padding: 10px;
 }
 
 .header h1 {
-    background-color: #f2ff65;
+    background-color: #65d6ff;
     display: flex;
     justify-content: center;
     margin: 0;
@@ -28,21 +29,37 @@ body {
 .links {
     display: flex;
     justify-content: center;
-    background-color: #fffc63;
+    flex-wrap: wrap;
+    background-color: #65d6ff;
     padding: 5px;
     margin: 0;
 }
 
 .links a {
-    padding: 0 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    /* Set a fixed width */
+    padding: 5px 20px;
+    /* Adjust padding as needed */
     color: white;
     text-decoration: none;
     font-size: 20px;
-    margin: 0;
+    border: 2px solid white;
+    /* Add border */
+    border-radius: 5px;
+    /* Optional: add rounded corners */
+    background-color: aquamarine;
+    /* Optional: add background color */
+    margin: 10px;
+    text-align: center;
 }
+
 
 .the {
     font-size: 50px;
+    font-family: blinker;
     text-align: center;
     margin: 0;
     padding: 0;
@@ -73,7 +90,6 @@ body {
 .ULTIMATE_test_section {
     justify-content: center;
     align-items: center;
-    /* margin-top: 8%; */
     padding: 70px;
     background: linear-gradient(180deg, #ff65d1 50%, #0800ff 50%);
 }
@@ -85,8 +101,57 @@ body {
     padding: 0;
     position: relative;
     bottom: 30px;
+    font-family: blinker;
+}
+
+.homepage_menu {
+    font-family: blinker;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    background-color: #65d6ff;
+    margin: 0;
+    padding: 0;
+}
+
+.neuroscience {
+    font-size: 30px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    margin-top: 5%;
+    position: relative;
+    bottom: 30px;
 
 }
+
+.sectionlinks {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 100px;
+}
+
+.sectionlinks a {
+    display: inline-block;
+    width: 300px;
+    /* Set a fixed width */
+    padding: 60px 15px;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    border: 2px solid white;
+    border-radius: 5px;
+    /* Optional: add rounded corners */
+    background-color: aquamarine;
+    /* Optional: add background color */
+    margin: 10px;
+    /* Add margin for spacing */
+    text-align: center;
+    /* Center the text inside the box */
+}
+
 
 .brain_and_arrows {
     position: relative;
