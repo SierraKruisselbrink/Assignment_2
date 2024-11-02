@@ -12,12 +12,14 @@ body {
     font-size: 25px;
 }
 
+
 .header {
-    background-color: #ff65d1;
+    background-color: #fff065;
+    font-family: englebert;
 }
 
 .header h1 {
-    background-color: #ff65d1;
+    background-color: #f2ff65;
     display: flex;
     justify-content: center;
     margin: 0;
@@ -26,19 +28,65 @@ body {
 .links {
     display: flex;
     justify-content: center;
-    background-color: #ff65d1;
+    background-color: #fffc63;
     padding: 5px;
     margin: 0;
 }
 
 .links a {
-    padding: 90px;
+    padding: 0 100px;
     color: white;
     text-decoration: none;
     font-size: 20px;
+    margin: 0;
 }
 
-.ULTIMATE_container {}
+.the {
+    font-size: 50px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    top: 50px;
+}
+
+.ULTIMATE_container {
+    background: linear-gradient(0deg, #ff65d1 50%, #0800ff 50%);
+    font-family: permanent marker;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 0;
+    padding: 0;
+    font-size: 120px;
+    /* Adjust the font size as needed */
+    font-weight: bold;
+    /* Optional: make the text bold */
+    text-align: center;
+    /* Optional: center the text */
+}
+
+.ULTIMATE_container h1 {
+    margin: 0;
+    padding: 0;
+}
+
+.ULTIMATE_test_section {
+    justify-content: center;
+    align-items: center;
+    /* margin-top: 8%; */
+    padding: 70px;
+    background: linear-gradient(180deg, #ff65d1 50%, #0800ff 50%);
+}
+
+.studybuddy {
+    font-size: 50px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    bottom: 30px;
+
+}
 
 .brain_and_arrows {
     position: relative;
