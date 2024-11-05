@@ -109,10 +109,10 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 2px solid black;
     background-color: #65d6ff;
     margin: 0;
     padding: 0;
+
 }
 
 .neuroscience {
@@ -205,6 +205,10 @@ body {
 
 .index_card_front,
 .index_card_back {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
     position: absolute;
     background-color: rgb(43, 189, 226);
     width: 100%;
@@ -213,13 +217,12 @@ body {
     backface-visibility: hidden;
     font-size: 1em;
     text-align: center;
-    /*This controls the font size of the text on the card relative to the font size. */
+    /*This controls the font size of the text on the card relative to the font size.*/
 }
 
 /* Style the front side (fallback if image is missing) */
 .index_card_front {
     margin: 0;
-    line-height: 1.2;
     background-color: #6474d0;
     box-sizing: border-box;
     color: black;
@@ -231,4 +234,41 @@ body {
     background-color: dodgerblue;
     color: white;
     transform: rotateY(180deg);
+
+}
+
+@media screen and (max-width: 900px) {
+
+    .index_card_front p,
+    .index_card_back p {
+        font-size: .75em;
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+
+    .index_card_front p,
+    .index_card_back p {
+        font-size: .5em;
+    }
+
+}
+
+@media screen and (max-width: 400px) {
+
+    .index_card_front p,
+    .index_card_back p {
+        font-size: .25em;
+    }
+
+}
+
+@media screen and (max-width: 100px) {
+
+    .index_card_front p,
+    .index_card_back p {
+        font-size: .10em;
+    }
+
 }
