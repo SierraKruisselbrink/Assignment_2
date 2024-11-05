@@ -41,18 +41,13 @@ body {
     justify-content: center;
     align-items: center;
     width: 200px;
-    /* Set a fixed width */
     padding: 5px 20px;
-    /* Adjust padding as needed */
     color: white;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 16px;
     border: 2px solid white;
-    /* Add border */
     border-radius: 5px;
-    /* Optional: add rounded corners */
     background-color: aquamarine;
-    /* Optional: add background color */
     margin: 10px;
     text-align: center;
 }
@@ -76,11 +71,8 @@ body {
     margin: 0;
     padding: 0;
     font-size: 120px;
-    /* Adjust the font size as needed */
     font-weight: bold;
-    /* Optional: make the text bold */
     text-align: center;
-    /* Optional: center the text */
 }
 
 .ULTIMATE_container h1 {
@@ -158,6 +150,10 @@ body {
     position: relative;
     display: grid;
     place-items: center;
+    margin: 0;
+    padding: 0;
+    top: 0%;
+
 }
 
 .brain img {
@@ -167,9 +163,7 @@ body {
 }
 
 .sections_of_the_brain {
-    position: relative;
-    top: 30%;
-    font-size: 30px;
+    text-align: center;
 }
 
 .neuron_image {
@@ -177,7 +171,14 @@ body {
     display: grid;
     place-items: center;
     max-width: 100%;
+    margin: 0;
 }
+
+.parts_of_the_neuron {
+    text-align: center;
+    margin: 0;
+}
+
 
 .neuron img {
     width: 100%;
@@ -193,7 +194,7 @@ body {
     overflow: hidden;
     background-color: transparent;
     width: 10%;
-    height: 2.75%;
+    height: 5%;
     perspective: 1000px;
     position: absolute;
     z-index: 1;
@@ -291,4 +292,16 @@ body {
         font-size: .10em;
     }
 
+}
+
+@media screen and (max-width: 900px) {
+    .header_title {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .links a {
+        font-size: 12px;
+    }
 }
