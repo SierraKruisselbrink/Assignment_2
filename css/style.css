@@ -341,7 +341,7 @@ body {
     background-color: #6474d0;
     box-sizing: border-box;
     color: black;
-    font-size: 2em;
+    font-size: 1.5em;
 }
 
 .index_card_back_consciousness {
@@ -400,8 +400,32 @@ body {
     }
 }
 
+@media screen and (max-width: 650px) {
+    .index_card_back_consciousness p {
+        font-size: 10px;
+    }
+}
+
 @media screen and (max-width: 600px) {
     .links a {
         font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .index_card_front_consciousness p {
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .index_card_back_consciousness p {
+        font-size: 8px;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .index_card_back_consciousness p {
+        font-size: 6px;
     }
 }
