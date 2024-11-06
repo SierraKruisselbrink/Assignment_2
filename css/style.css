@@ -9,19 +9,21 @@ body {
 }
 
 .header_title {
-    font-size: 20px;
+    font-size: 15px;
 }
 
 
 .header {
-    background-color: #65d6ff;
+    background-color: #D4BDAC;
     font-family: special elite;
     padding-top: 5px;
     margin: 0 auto;
+    position: relative;
+    text-decoration: none;
 }
 
 .header h1 {
-    background-color: #65d6ff;
+    background-color: #D4BDAC;
     display: flex;
     justify-content: center;
     margin: 0;
@@ -31,7 +33,7 @@ body {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    background-color: #65d6ff;
+    background-color: #D4BDAC;
     padding: 5px;
     margin: 0;
 }
@@ -40,18 +42,42 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 200px;
+    width: 150px;
     padding: 5px 20px;
-    color: white;
+    color: black;
     text-decoration: none;
     font-size: 16px;
-    border: 2px solid white;
+    border: 2px solid black;
     border-radius: 5px;
-    background-color: aquamarine;
+    background-color: #FFF1DB;
     margin: 10px;
     text-align: center;
 }
 
+.homepage {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    padding: 5px 20px;
+    background-color: blanchedalmond;
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    border: 2px solid white;
+    border-radius: 5px;
+    text-align: center;
+    transition: background-color 0.5s;
+}
+
+.homepage:hover {
+    background-color: #65d6ff;
+}
+
+.hamburger {
+    display: none;
+    font-size: 30px;
+    cursor: pointer;
+}
 
 .the {
     font-size: 50px;
@@ -64,7 +90,7 @@ body {
 }
 
 .ULTIMATE_container {
-    background: linear-gradient(0deg, #ff65d1 50%, #0800ff 50%);
+    background: linear-gradient(0deg, #88C273 50%, #0f6642 50%);
     font-family: permanent marker;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -84,7 +110,7 @@ body {
     justify-content: center;
     align-items: center;
     padding: 70px;
-    background: linear-gradient(180deg, #ff65d1 50%, #0800ff 50%);
+    background: linear-gradient(180deg, #88C273 50%, #0f6642 50%);
 }
 
 .studybuddy {
@@ -102,7 +128,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #65d6ff;
+    background-color: #D4BDAC;
     margin: 0;
     padding: 0;
 }
@@ -153,8 +179,15 @@ body {
     margin: 0 auto;
 }
 
+
 .sections_of_the_brain {
     text-align: center;
+}
+
+.sections_of_the_brain h1 {
+    font-family: Blinker;
+    font-size: 50px;
+    padding-top: 120px;
 }
 
 .neuron_image {
@@ -195,6 +228,11 @@ body {
 
 .consciousness h1 {
     text-align: center;
+    padding: 100px;
+    padding-bottom: 0;
+}
+
+.consciousness p {
     padding: 20px;
 }
 
@@ -358,6 +396,7 @@ body {
     margin-top: 200px;
 }
 
+
 @media screen and (max-width: 900px) {
 
     .index_card_front p,
@@ -365,36 +404,6 @@ body {
         font-size: .75em;
     }
 
-}
-
-@media screen and (max-width: 600px) {
-
-    .index_card_front p,
-    .index_card_back p {
-        font-size: .5em;
-    }
-
-}
-
-@media screen and (max-width: 400px) {
-
-    .index_card_front p,
-    .index_card_back p {
-        font-size: .25em;
-    }
-
-}
-
-@media screen and (max-width: 100px) {
-
-    .index_card_front p,
-    .index_card_back p {
-        font-size: .10em;
-    }
-
-}
-
-@media screen and (max-width: 900px) {
     .header_title {
         font-size: 15px;
     }
@@ -407,16 +416,18 @@ body {
 }
 
 @media screen and (max-width: 600px) {
+
+    .index_card_front p,
+    .index_card_back p {
+        font-size: .5em;
+    }
+
     .links a {
         font-size: 12px;
     }
+
 }
 
-@media screen and (max-width: 400px) {
-    .index_card_front_consciousness p {
-        font-size: 10px;
-    }
-}
 
 @media screen and (max-width: 450px) {
     .index_card_back_consciousness p {
@@ -424,8 +435,28 @@ body {
     }
 }
 
+@media screen and (max-width: 400px) {
+
+    .index_card_front p,
+    .index_card_back p {
+        font-size: .25em;
+    }
+
+    .index_card_front_consciousness p {
+        font-size: 10px;
+    }
+}
+
 @media screen and (max-width: 350px) {
     .index_card_back_consciousness p {
         font-size: 6px;
+    }
+}
+
+@media screen and (max-width: 100px) {
+
+    .index_card_front p,
+    .index_card_back p {
+        font-size: .10em;
     }
 }
