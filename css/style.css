@@ -269,11 +269,9 @@ body {
     width: 10%;
     height: 5%;
     perspective: 1000px;
-    position: absolute;
-    z-index: 1;
-    text-align: center;
-    font-size: .80em;
-    /* 75% of the font size of the parent element */
+    position: absolute; */
+    text-align:center;
+    font-size: 9px;
 }
 
 .index_card_grid {
@@ -468,11 +466,14 @@ body {
 
     .index_card_front p,
     .index_card_back p {
-        font-size: 3px;
+        font-size: .25em;
     }
 
     .index_card_front_consciousness p {
         font-size: 10px;
+    }
+    .index_card_back {
+        font-size: 2px;
     }
 }
 
