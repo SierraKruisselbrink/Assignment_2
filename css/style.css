@@ -254,8 +254,8 @@ body {
     width: 10%;
     height: 5%;
     perspective: 1000px;
-    position: absolute; 
-    text-align:center;
+    position: absolute;
+    text-align: center;
     font-size: 10px;
     font-family: blinker;
 }
@@ -423,7 +423,9 @@ body {
     .studybuddy {
         font-size: 20px;
     }
-    .index_card_front, .index_card_back {
+
+    .index_card_front,
+    .index_card_back {
         font-size: 1em;
     }
 }
@@ -437,13 +439,14 @@ body {
 
     .header_title {
         font-size: 15px;
-    }  
+    }
 }
 
 @media screen and (max-width: 650px) {
     .index_card_back_consciousness p {
         font-size: 10px;
     }
+
     .ULTIMATE_container {
         font-size: 80px;
     }
@@ -459,9 +462,11 @@ body {
     .links a {
         font-size: 12px;
     }
+
     .sections_of_the_brain h1 {
         font-size: 25px;
     }
+
     .footer {
         font-size: 10px;
     }
@@ -473,9 +478,11 @@ body {
     .index_card_back_consciousness p {
         font-size: 8px;
     }
+
     .parts_of_the_neuron {
         font-size: 18px;
     }
+
     .ULTIMATE_container {
         font-size: 60px;
     }
@@ -486,28 +493,35 @@ body {
     .index_card_front_consciousness p {
         font-size: 10px;
     }
+
     .index_card_back {
         font-size: 6px;
     }
+
     .homepage_menu {
         font-size: 10px;
     }
+
     .homepage {
         font-size: 8px;
     }
+
     .index_card {
         font-size: 6px;
-    } */
-    .consciousness h1 { 
+    }
+
+    */ .consciousness h1 {
         font-size: 20px;
     }
+
     .footer {
         font-size: 8px;
     }
+
     .cell_theory_container .index_card_back {
         font-size: 20px;
     }
-    
+
 }
 
 @media screen and (max-width: 350px) {
@@ -517,10 +531,10 @@ body {
 }
 
 @media screen and (max-width: 300px) {
-  .ULTIMATE_container {
+    .ULTIMATE_container {
         font-size: 40px;
     }
-    
+
 }
 
 @media screen and (max-width: 100px) {
