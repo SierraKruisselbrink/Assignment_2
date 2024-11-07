@@ -14,16 +14,17 @@ body {
 
 
 .header {
-    background-color: #D4BDAC;
+    background-color: #3f3f3f;
     font-family: special elite;
-    padding-top: 5px;
+    padding: 10px 20px;
     margin: 0 auto;
     position: relative;
     text-decoration: none;
+    justify-content: space-between;
 }
 
 .header h1 {
-    background-color: #D4BDAC;
+    background-color: #3f3f3f;
     display: flex;
     justify-content: center;
     margin: 0;
@@ -33,7 +34,7 @@ body {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    background-color: #D4BDAC;
+    background-color: #3f3f3f;
     padding: 5px;
     margin: 0;
 }
@@ -49,9 +50,14 @@ body {
     font-size: 16px;
     border: 2px solid black;
     border-radius: 5px;
-    background-color: #FFF1DB;
+    background-color: #a6a6a6;
     margin: 10px;
     text-align: center;
+}
+
+.links a:hover {
+    background-color: #525252;
+    transition: background-color 0.3s;
 }
 
 .homepage {
@@ -73,24 +79,20 @@ body {
     background-color: #65d6ff;
 }
 
-.hamburger {
-    display: none;
-    font-size: 30px;
-    cursor: pointer;
-}
+
 
 .the {
-    font-size: 50px;
-    font-family: blinker;
+    font-size: 40px;
+    font-family: permanent marker;
     text-align: center;
     margin: 0;
     padding: 0;
     position: relative;
-    top: 50px;
+    top: 20px;
 }
 
 .ULTIMATE_container {
-    background: linear-gradient(0deg, #88C273 50%, #0f6642 50%);
+    background: linear-gradient(0deg, #FF6F61 50%, #6474d0 50%);
     font-family: permanent marker;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -101,34 +103,30 @@ body {
     text-align: center;
 }
 
-.ULTIMATE_container h1 {
-    margin: 0;
-    padding: 0;
-}
-
 .ULTIMATE_test_section {
+    position: relative;
     justify-content: center;
     align-items: center;
-    padding: 70px;
-    background: linear-gradient(180deg, #88C273 50%, #0f6642 50%);
+    padding-top: 70px;
+    padding-bottom: 70px;
+    background: linear-gradient(180deg, #FF6F61 50%, #6474d0 50%);
 }
 
 .studybuddy {
-    font-size: 50px;
+    font-size: 40px;
     text-align: center;
     margin: 0;
     padding: 0;
-    position: relative;
     bottom: 30px;
-    font-family: blinker;
+    font-family: permanent marker;
 }
 
 .homepage_menu {
-    font-family: blinker;
+    font-family: special elite;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #D4BDAC;
+    background-color: #3f3f3f;
     margin: 0;
     padding: 0;
 }
@@ -139,29 +137,41 @@ body {
     align-items: center;
     flex-wrap: wrap;
     gap: 100px;
+    background-color: #9f9f9f;
+}
+
+.section_links_background {
+    background-color: #9f9f9f;
+}
+
+.sectionlinks a:hover {
+    background-color: #FF6F61;
+    transition: background-color 0.3s;
 }
 
 .neuroscience {
     font-size: 30px;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: special elite;
     text-align: center;
-    margin-top: 5%;
+    padding-top: 5%;
     position: relative;
-    bottom: 30px;
+    background-color: #9f9f9f;
 }
 
 .sectionlinks a {
     display: inline-block;
     width: 300px;
     padding: 60px 15px;
-    color: white;
+    color: black;
     text-decoration: none;
     font-size: 20px;
-    border: 2px solid white;
+    font-family: special elite;
+    border: 2px solid black;
     border-radius: 5px;
-    background-color: aquamarine;
+    background-color: #6474d0;
     margin: 10px;
     text-align: center;
+
 }
 
 .brain_and_arrows {
@@ -396,6 +406,25 @@ body {
     margin-top: 200px;
 }
 
+@media screen and (max-width: 1100px) {
+    .the {
+        font-size: 20px;
+        font-family: permanent marker;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+        position: relative;
+        top: 0px;
+    }
+
+    .ULTIMATE_container {
+        font-size: 50px;
+    }
+
+    .studybuddy {
+        font-size: 20px;
+    }
+}
 
 @media screen and (max-width: 900px) {
 
