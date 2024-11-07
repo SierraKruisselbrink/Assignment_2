@@ -150,7 +150,7 @@ body {
 }
 
 .neuroscience {
-    font-size: 30px;
+    font-size: 25px;
     font-family: special elite;
     text-align: center;
     padding-top: 5%;
@@ -474,6 +474,12 @@ body {
     }
     .index_card_back {
         font-size: 2px;
+    }
+    .homepage_menu {
+        font-size: 10px;
+    }
+    .homepage {
+        font-size: 8%;
     }
 }
 
