@@ -65,7 +65,7 @@ body {
     top: 10px;
     right: 10px;
     padding: 5px 20px;
-    background-color: blanchedalmond;
+    background-color: #007F73;
     color: white;
     text-decoration: none;
     font-size: 14px;
@@ -76,7 +76,7 @@ body {
 }
 
 .homepage:hover {
-    background-color: #65d6ff;
+    background-color: #4CCD99;
 }
 
 
@@ -92,7 +92,7 @@ body {
 }
 
 .ULTIMATE_container {
-    background: linear-gradient(0deg, #FF6F61 50%, #6474d0 50%);
+    background: linear-gradient(0deg, #4CCD99 50%, #007F73 50%);
     font-family: permanent marker;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -109,7 +109,7 @@ body {
     align-items: center;
     padding-top: 70px;
     padding-bottom: 70px;
-    background: linear-gradient(180deg, #FF6F61 50%, #6474d0 50%);
+    background: linear-gradient(180deg, #4CCD99 50%, #007F73 50%);
 }
 
 .studybuddy {
@@ -145,7 +145,7 @@ body {
 }
 
 .sectionlinks a:hover {
-    background-color: #FF6F61;
+    background-color: #FFF455;
     transition: background-color 0.3s;
 }
 
@@ -168,7 +168,7 @@ body {
     font-family: special elite;
     border: 2px solid black;
     border-radius: 5px;
-    background-color: #6474d0;
+    background-color: #FFC700;
     margin: 10px;
     text-align: center;
 
@@ -195,8 +195,8 @@ body {
 }
 
 .sections_of_the_brain h1 {
-    font-family: Blinker;
-    font-size: 50px;
+    font-family: special elite;
+    font-size: 40px;
     padding-top: 120px;
 }
 
@@ -212,6 +212,8 @@ body {
 .parts_of_the_neuron {
     text-align: center;
     margin: 0;
+    font-family: special elite;
+    font-size: 24px;
 }
 
 
@@ -227,6 +229,7 @@ body {
     gap: 20px;
     margin-top: 50px;
     margin-bottom: 50px;
+    padding-bottom: 40px;
 }
 
 
@@ -240,10 +243,14 @@ body {
     text-align: center;
     padding: 100px;
     padding-bottom: 0;
+    font-family: special elite;
+    font-size: 35px;
 }
 
 .consciousness p {
     padding: 20px;
+    font-family: blinker;
+
 }
 
 .cell_theory_title p {
@@ -251,12 +258,13 @@ body {
     padding-left: 5%;
     padding-right: 5%;
     text-align: center;
+    font-family: blinker;
 }
 
 .cell_theory_title h1 {
     text-align: center;
-    padding: 20px;
-
+    font-family: special elite;
+    font-size: 34px;
 }
 
 /* This is the index card container */
@@ -269,9 +277,10 @@ body {
     width: 10%;
     height: 5%;
     perspective: 1000px;
-    position: absolute; */
+    position: absolute; 
     text-align:center;
-    font-size: 9px;
+    font-size: 10px;
+    font-family: blinker;
 }
 
 .index_card_grid {
@@ -306,26 +315,26 @@ body {
     align-items: center;
     box-sizing: border-box;
     position: absolute;
-    background-color: rgb(43, 189, 226);
+    background-color: #4CCD99;
     width: 100%;
     height: 100%;
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
-    font-size: 1em;
+    font-size: 1.3em;
     text-align: center;
 }
 
 /* Style the front side (fallback if image is missing) */
 .index_card_front {
     margin: 0;
-    background-color: #6474d0;
+    background-color: #007F73;
     box-sizing: border-box;
     color: black;
 }
 
 /* Style the back side */
 .index_card_back {
-    background-color: dodgerblue;
+    background-color: dodgerblu#4ccd99;
     color: white;
     transform: rotateY(180deg);
 }
@@ -345,6 +354,7 @@ body {
     text-align: center;
     font-size: .80em;
     padding: 10px;
+    font-family: blinker;
 }
 
 .index_card_inner_consciousness {
@@ -372,7 +382,7 @@ body {
     align-items: center;
     box-sizing: border-box;
     position: absolute;
-    background-color: rgb(43, 189, 226);
+    background-color: #4CCD99;
     width: 100%;
     height: 100%;
     -webkit-backface-visibility: hidden;
@@ -384,14 +394,14 @@ body {
 
 .index_card_front_consciousness {
     margin: 0;
-    background-color: #6474d0;
+    background-color: #007F73;
     box-sizing: border-box;
     color: black;
     font-size: 1.5em;
 }
 
 .index_card_back_consciousness {
-    background-color: dodgerblue;
+    background-color: #4CCD99;
     color: white;
     transform: rotateY(180deg);
 
@@ -422,13 +432,16 @@ body {
     .studybuddy {
         font-size: 20px;
     }
+    .index_card_front, .index_card_back {
+        font-size: 1em;
+    }
 }
 
 @media screen and (max-width: 900px) {
 
     .index_card_front p,
     .index_card_back p {
-        font-size: .75em;
+        font-size: .80em;
     }
 
     .header_title {
@@ -452,6 +465,9 @@ body {
     .links a {
         font-size: 12px;
     }
+    .sections_of_the_brain h1 {
+        font-size: 25px;
+    }
 
 }
 
@@ -460,13 +476,16 @@ body {
     .index_card_back_consciousness p {
         font-size: 8px;
     }
+    .parts_of_the_neuron {
+        font-size: 18px;
+    }
 }
 
 @media screen and (max-width: 400px) {
 
     .index_card_front p,
     .index_card_back p {
-        font-size: 6px;
+        font-size: 4px;
     }
 
     .index_card_front_consciousness p {
