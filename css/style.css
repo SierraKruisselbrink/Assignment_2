@@ -481,6 +481,9 @@ body {
     .homepage {
         font-size: 8%;
     }
+    .index_card {
+        font-size: 6px;
+    }
 }
 
 @media screen and (max-width: 350px) {
