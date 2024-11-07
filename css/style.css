@@ -229,6 +229,12 @@ body {
     padding-bottom: 40px;
 }
 
+.cell_theory_container .index_card {
+    font-size: 20px;
+}
+
+
+
 .paragraph {
     text-align: left;
     justify-content: center;
@@ -259,6 +265,7 @@ body {
     justify-content: center;
     gap: 20px;
 }
+
 
 .index_card_inner {
     display: flex;
@@ -430,7 +437,7 @@ body {
 
     .header_title {
         font-size: 15px;
-    }
+    }  
 }
 
 @media screen and (max-width: 650px) {
@@ -476,11 +483,6 @@ body {
 
 @media screen and (max-width: 400px) {
 
-    .index_card_front p,
-    .index_card_back p {
-        font-size: 4px;
-    }
-
     .index_card_front_consciousness p {
         font-size: 10px;
     }
@@ -491,20 +493,21 @@ body {
         font-size: 10px;
     }
     .homepage {
-        font-size: 8%;
+        font-size: 8px;
     }
     .index_card {
         font-size: 6px;
-    }
-    .cell_theory_title h1 {
-        font-size: 25px;
-    }
+    } */
     .consciousness h1 { 
         font-size: 20px;
     }
     .footer {
         font-size: 8px;
     }
+    .cell_theory_container .index_card_back {
+        font-size: 20px;
+    }
+    
 }
 
 @media screen and (max-width: 350px) {
