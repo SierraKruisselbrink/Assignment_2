@@ -27,32 +27,34 @@
 
 </head>
 
-<body>
+<body class="background">
     <section>
         <header class="header">
-            <div class="header_title">
+            <div>
                 <h1>BRAINS over BRAWN</h1>
             </div>
             <div class="links">
                 <div><a href="thebrain.html">The Brain</a></div>
                 <div><a href="theneuron.html">The Neuron</a></div>
-                <div><a href="consciousness.html">Consciousness</a></div>
+                <div><a href="consciousness.html" class="active_link">Consciousness</a></div>
             </div>
             <a href="index.html" class="homepage"> Home</a>
         </header>
     </section>
 
     <section>
-        <div class="consciousness">
+        <div class="heading">
             <h1> Global States of Consciousness </h1>
+        </div>
+        <div class="paragraph">
             <p>Global states are defined as a range of our different levels of awareness. They are another way to think
                 about consciousness. Each state is a representation of a distinct pattern of brain activity, including
                 congnition and responses. The states range from fully alert to vegitative states and coma's.
                 Consciousness is compartmentalized into 6 categories, which are as follows: </p>
         </div>
     </section>
-
-    <section>
+<!-- The following code uses inline styling to position the cards in the grid because each card needs to be at a different position but not necessarily in an exact grid. In this case, each element would need its own class anyways which creates more work and is inefficient. -->
+    <section class="sticky_footer_solution">
         <div class="index_card_grid">
             <div class="index_card_consciousness" style="left: 10%;">
                 <div class="index_card_inner_consciousness">
@@ -86,10 +88,8 @@
                     </div>
                 </div>
             </div>
-
-
-
         </div>
+
         <div class="index_card_grid2">
             <div class="index_card_consciousness" style=" left: 10%">
                 <div class="index_card_inner_consciousness">
@@ -124,6 +124,14 @@
                 </div>
             </div>
         </div>
+    </section>
+
+    <section>
+        <footer class="footer">
+            <p>November 2024</p>
+            <p>@BRAINSoverBRAWN</p>
+            <p>Sierra Kruisselbrink</p>
+        </footer>
     </section>
 
 </body>
