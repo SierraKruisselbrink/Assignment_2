@@ -548,6 +548,6 @@ body {
 
     .index_card_front p,
     .index_card_back p {
-        font-size: .10em;
+        font-size: 6px;
     }
 }
