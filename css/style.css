@@ -466,7 +466,7 @@ body {
 
     .index_card_front p,
     .index_card_back p {
-        font-size: .25em;
+        font-size: 6px;
     }
 
     .index_card_front_consciousness p {
